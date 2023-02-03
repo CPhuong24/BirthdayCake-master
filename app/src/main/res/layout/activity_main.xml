@@ -23,7 +23,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:layout_weight="1">
 
@@ -31,8 +31,7 @@
         <cs301.birthdaycake.CakeView
             android:id="@+id/cakeview"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_height="match_parent" />
     </LinearLayout>
 
     <LinearLayout
@@ -109,7 +108,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Goodbye"
-                android:layout_marginBottom="10sp"/>
+                android:layout_marginBottom="10sp"
+                android:onClick="goodbye"/>
 
         </LinearLayout>
 
