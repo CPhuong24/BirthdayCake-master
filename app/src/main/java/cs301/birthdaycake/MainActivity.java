@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button blowout = findViewById(R.id.blowOut);
         blowout.setOnClickListener(cakeCont);
+
+        Switch candles = findViewById(R.id.switch2);
+        candles.setOnCheckedChangeListener(cakeCont);
 
 
     }
