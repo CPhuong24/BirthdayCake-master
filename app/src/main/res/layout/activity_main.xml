@@ -95,7 +95,7 @@
             android:layout_marginRight="10sp">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/blowOut"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Blow Out"
